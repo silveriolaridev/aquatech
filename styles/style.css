@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+/* header */
+
+.header{
+    height: 80px;
+    border-bottom: 2px solid #32b9cd;
+}
+
+.container{
+    display: flex;
+    width: 80%; 
+    margin: auto;
+}
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+} /*  acessando classe container dentro do header */
+
+.header a{
+    text-decoration: none; 
+    color: yellow;
+}
+
+.navbar{
+     list-style-type: none; /*tirar as bolinhas da lista de links */
+     display: flex;
+     justify-content: space-between; /* elementos com espaçamento justificado entre eles, só da pra usar com display flex*/
+     width: 500px;
+     color: yellow;
+}
+
+.titulo{
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+.banner{
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: white;
+}
+
+.banner .container{
+    justify-content: center;
+    align-items: center;
+     height: 100%; /* alterando altura do texto na div dele*/
+}
+
+.banner .container p {
+ font-size: 36px;
+ width: 25%;
+}
+
+.banner .container span{
+    font-weight: 800; /* deixando palavras na tag span em negrito */
+}
+
+/* MISSAO VISAO E VALORES */
+
+.social{
+    background-color: #e5e5e5;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.social .container .boxes{
+    display: flex;
+    text-align: justify; /* centralizar textos */
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+
+
+
+
+
+.box img{
+    width: 170px; /*ajustou as imagens e textos */
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box h4{
+    color: red;
+}
+
+.footer{
+    background-color: #32b9cd;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    font-size: 15px;
+
+}
+
+.footer .container{
+    justify-content: center;
+}
+
+.version{
+    font-size: 12px;
+    height: 100%;
+}
+
+/* LOGIN */
+
+.login{
+    height: 500px;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+
+}
+
+.login .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card{
+    width: 50%;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: palevioletred;
+    padding:  20px 0; /* padding somente no top e bottom, 0 no left e rigth */
+}
+
+.card h2{
+    margin: 0;
+    font-size: 30px;
+}
+
+.formulario{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.formulario span{
+    font-size: 15px;
+    font-weight: 800px;
+}
+
+.formulario input{
+    border: 2px solid #32b9cd;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0;
+    height: 25px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.botao{
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ed145b;
+    width: 120px;
+    height: 30px;
+    align-self: center;
+    margin-top: 20px;
+}
