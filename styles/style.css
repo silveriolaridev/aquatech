@@ -52,7 +52,7 @@ body {
 .banner .container{
     justify-content: center;
     align-items: center;
-     height: 100%; /* alterando altura do texto na div dele*/
+    height: 100%; /* alterando altura do texto na div dele*/
 }
 
 .banner .container p {
@@ -84,11 +84,6 @@ body {
     
 }
 
-
-
-
-
-
 .box img{
     width: 170px; /*ajustou as imagens e textos */
     
@@ -108,13 +103,20 @@ body {
     background-color: #32b9cd;
     height: 150px;
     color: #fff;
-    display: flex;
     font-size: 15px;
+    width: 100%;
+    height: 120px;
 
 }
 
 .footer .container{
+    display: flex;
+    text-align: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
 }
 
 .version{
